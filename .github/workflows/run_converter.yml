@@ -38,9 +38,11 @@ jobs:
       - name: Run Converter Script
         run: python v2fly2singbox.py
         
-      - name: Commit generated file (google.json)
+# 5. 提交生成的 JSON 文件
+      - name: Commit generated files
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: '🤖 Auto: Update sing-box rule (google.json)'
-          # [修正点2] 将 'files' 改为正确的参数名 'file_pattern'
-          file_pattern: 'google.json'
+          # 更新提交信息
+          commit_message: '🤖 Auto: Update individual sing-box rules'
+          # [修正点] 使用通配符提交所有生成的 .json 文件
+          file_pattern: '*.json'
