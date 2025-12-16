@@ -1,69 +1,46 @@
 name: 自动生成 Sing-box 规则
 
-# 定义触发条件（修正部分：确保至少有一个有效的触发器）
 on:
-  # 允许手动触发：您可以通过 GitHub Actions 页面点击按钮运行它
   workflow_dispatch:
-  
-  # 在推送到 main 分支时触发（可选，如果不需要，可以注释掉）
   push:
     branches:
       - main
-      
-  # 也可以设置定时触发，例如每周一凌晨 0 点（可选，如果不需要，可以注释掉）
   # schedule:
   #   - cron: '0 0 * * 1'
-  
+
 jobs:
   convert_and_commit:
     runs-on: ubuntu-latest
-    # 授予 Actions 写入权限，以便提交文件
     permissions:
       contents: write 
 
     steps:
-      # 1. 检出您的仓库
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          # 启用稀疏检出，只检出脚本文件
           sparse-checkout: |
             v2fly2singbox.py
-            
-      # 2. 设置 Python 环境
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
-      # 3. 快速拉取规则文件 (使用浅克隆+稀疏检出)
       - name: Clone domain-list-community data (Sparse Checkout)
         run: |
-          # 克隆 v2fly/domain-list-community 仓库
-          git clone --depth 1 --filter=blob:none --sparse \
-            https://github.com/v2fly/domain-list-community.git
-          
-          # 进入克隆的仓库目录
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/v2fly/domain-list-community.git
           cd domain-list-community
-          
-          # 指定只下载 data/ 目录的内容
           git sparse-checkout set data/
-          
-          # [修正点] 将 main 改为 master
+          # [修正点1] 确保使用 master 分支 (v2fly 仓库主分支名为 master)
           git pull origin master
-
-          # 返回脚本运行目录
           cd ..
 
-      # 4. 运行您的 Python 脚本
       - name: Run Converter Script
-        # 脚本将读取 ./domain-list-community/data/google
-        # 并生成 ./google.json
         run: python v2fly2singbox.py
         
-      # 5. 提交生成的 JSON 文件
       - name: Commit generated file (google.json)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: '🤖 Auto: Update sing-box rule (google.json)'
-          files: 'google.json'
+          # [修正点2] 将 'files' 改为正确的参数名 'file_pattern'
+          file_pattern: 'google.json'
