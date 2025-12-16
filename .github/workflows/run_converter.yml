@@ -1,4 +1,4 @@
-name: 自动生成 Sing-box 规则
+name: 自动生成 Sing-box 规则 
 
 on:
   workflow_dispatch:
