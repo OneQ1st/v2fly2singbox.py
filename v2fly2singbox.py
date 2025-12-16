@@ -2,13 +2,18 @@ import os
 import json
 
 # 设置
-# [修正点 1] 定义要处理的规则列表
-initial_files_list = ['google', 'geolocation-!cn'] 
 base_dir = 'domain-list-community/data/' # 规则文件所在目录
 version = 3 # Sing-box 规则版本
 
-# --- 辅助函数：保持不变 ---
+# 忽略列表：排除非规则文件和通常不需要走代理的中国大陆规则
+ignore_files = [
+    'README.md', 'README_CN.md', 'README_EN.md', '.DS_Store', 'all'
+]
+# 排除以特定后缀结尾的文件（如非规则文本文件）
+exclude_suffixes = ['.txt', '.md'] 
 
+
+# --- 辅助函数：清除内容中的注释和额外空格 ---
 def clean_content(content):
     space_index = content.find(' ')
     if space_index != -1:
@@ -16,8 +21,8 @@ def clean_content(content):
     else:
         return content.strip()
 
+# --- 规则文件处理核心逻辑：递归处理 include ---
 def process_files(initial_files, base_path):
-    # 此函数逻辑保持不变，但每次调用只传入一个主文件
     files_to_process = list(initial_files)
     processed_files = set(initial_files)
     domain_suffix = [] 
@@ -26,6 +31,11 @@ def process_files(initial_files, base_path):
     while files_to_process:
         current_file = files_to_process.pop(0)
         full_path = os.path.join(base_path, current_file)
+        # 排除包含在忽略列表中的 include 依赖
+        if current_file in ignore_files or any(current_file.endswith(s) for s in exclude_suffixes):
+            print(f"[Ignore] Skipping ignored file: {current_file}")
+            continue
+
         print(f"Processing {current_file} ......")
         try:
             with open(full_path, 'r', encoding='utf-8') as f:
@@ -64,6 +74,7 @@ def process_files(initial_files, base_path):
             
     return domain_suffix, domain
 
+# --- 写入 Sing-box JSON 格式 ---
 def write_to_json(domain_suffix, domain, output_filename):
     rule={
         "domain": domain,
@@ -82,28 +93,40 @@ def write_to_json(domain_suffix, domain, output_filename):
         print(f"!!! ERROR WRITE FILE {output_filename} OCCURS {e}")
 
 
-# --- 主执行逻辑：改为循环处理 ---
+# --- 主执行逻辑：动态获取所有规则并独立输出 ---
 
 if __name__ == "__main__":
     generated_files = []
     
-    for filename in initial_files_list:
-        # 为每个文件创建一个独立的输出名
+    # 1. 动态获取所有规则文件（排除忽略列表中的文件）
+    try:
+        # 获取 data/ 目录下所有文件
+        all_initial_files = [
+            f for f in os.listdir(base_dir) 
+            if os.path.isfile(os.path.join(base_dir, f)) 
+            and f not in ignore_files
+            and not any(f.endswith(s) for s in exclude_suffixes)
+        ]
+    except FileNotFoundError:
+        print(f"!!! ERROR: Data directory {base_dir} not found. Ensure git cloning was successful.")
+        exit(1)
+
+    print(f"Found {len(all_initial_files)} primary rule files to process.")
+    
+    # 2. 循环处理每一个文件，并独立输出
+    for filename in all_initial_files:
+        # 为每个文件创建一个独立的 .json 配置
         output_file_name = f"{filename}.json"
         
-        # 1. 处理当前规则列表及其包含的所有子规则
+        # process_files 只传入当前文件，但它会递归处理该文件中的 include
         domain_suffix, domain = process_files(initial_files=[filename], base_path=base_dir)
         
-        # 2. 将结果写入独立的 JSON 文件
+        # 3. 将结果写入独立的 JSON 文件
         write_to_json(domain_suffix, domain, output_file_name)
         
         generated_files.append(output_file_name)
         
         print(f"\n--- {output_file_name} generation complete ---\n")
     
-    print(f"All done. Total files generated: {generated_files.__len__()}.")
+    print(f"All done. Total files generated: {len(generated_files)}.")
     print(f"Generated file names: {', '.join(generated_files)}")
-    print(f"Ensure these files are added to .github/workflows/run_converter.yml for committing.")
-
-
-
