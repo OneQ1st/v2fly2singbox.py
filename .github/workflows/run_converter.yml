@@ -1,4 +1,4 @@
-name: 自动生成 Sing-box 规则  
+name: 自动生成 Sing-box JSON 和 SRS 规则
 
 on:
   workflow_dispatch:
@@ -6,10 +6,8 @@ on:
     branches:
       - main
   schedule:
-    # cron 表达式格式：分 时 日 月 周
-    # 0 2 * * * 表示 每天 2:00 (UTC) 运行
-      - cron: '0 2 * * *'
-
+    - cron: '0 2 * * *'
+  
 jobs:
   convert_and_commit:
     runs-on: ubuntu-latest
@@ -28,23 +26,36 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Clone domain-list-community data (Sparse Checkout)
+      # 安装 Sing-box (用于将 JSON 转换为 SRS)
+      - name: Install Sing-box
+        run: |
+          bash <(curl -Ls https://raw.githubusercontent.com/SagerNet/sing-box/main/install.sh)
+
+      - name: Clone domain-list-community data
         run: |
           git clone --depth 1 --filter=blob:none --sparse https://github.com/v2fly/domain-list-community.git
           cd domain-list-community
           git sparse-checkout set data/
-          # [修正点1] 确保使用 master 分支 (v2fly 仓库主分支名为 master)
           git pull origin master
           cd ..
 
-      - name: Run Converter Script
+      # 第一步：运行 Python 生成所有独立的 JSON 文件
+      - name: Run Python Converter
         run: python v2fly2singbox.py
         
-# 5. 提交生成的 JSON 文件
+      # 第二步：使用 Sing-box 官方命令将所有 JSON 转换为二进制 SRS
+      - name: Compile JSON to SRS
+        run: |
+          for f in *.json; do
+            [ -e "$f" ] || continue
+            echo "Compiling $f to ${f%.json}.srs ..."
+            sing-box rule-set compile "$f"
+          done
+
+      # 第三步：提交所有 JSON 和 SRS 文件
       - name: Commit generated files
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          # 更新提交信息
-          commit_message: '🤖 Auto: Update individual sing-box rules'
-          # [修正点] 使用通配符提交所有生成的 .json 文件
-          file_pattern: '*.json'
+          commit_message: '🤖 Auto: Update Sing-box JSON & SRS rules'
+          # 同时保存两种格式，方便不同需求
+          file_pattern: '*.json *.srs'
