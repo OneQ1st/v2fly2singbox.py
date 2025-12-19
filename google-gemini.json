@@ -27,7 +27,9 @@
                 "jules.google.com",
                 "labs.google",
                 "aisandbox-pa.googleapis.com",
-                "aida.googleapis.com"
+                "aida.googleapis.com",
+                "opal.google",
+                "opal.google.com"
             ]
         }
     ]
