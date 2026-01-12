@@ -67,6 +67,8 @@
                 "yystatic.com",
                 "zhihu.com",
                 "zhimg.com",
+                "crash2.zhihu.com",
+                "zhihu-web-analytics.zhihu.com",
                 "ad.sina.com.cn",
                 "ad.us.sinaimg.cn",
                 "adbox.sina.com.cn",
@@ -94,9 +96,7 @@
                 "askdiandian.com",
                 "diandianlife.top",
                 "duowan.com",
-                "dwstatic.com",
-                "crash2.zhihu.com",
-                "zhihu-web-analytics.zhihu.com"
+                "dwstatic.com"
             ]
         }
     ]

@@ -5,9 +5,9 @@
             "domain": [
                 "anime-rule34-world.b-cdn.net",
                 "misa-prod.s3.ap-northeast-1.amazonaws.com",
-                "widgets.stripst.com",
                 "ad-channel.diwodiwo.xyz",
-                "ad-display.diwodiwo.xyz"
+                "ad-display.diwodiwo.xyz",
+                "widgets.stripst.com"
             ],
             "domain_suffix": [
                 "adult",

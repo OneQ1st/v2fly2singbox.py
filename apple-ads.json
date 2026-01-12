@@ -4,6 +4,7 @@
         {
             "domain": [],
             "domain_suffix": [
+                "advertising.apple.com",
                 "api-adservices.apple.com",
                 "iadsdk.apple.com",
                 "iad.apple.com",
