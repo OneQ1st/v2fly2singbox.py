@@ -77,6 +77,7 @@
                 "prodforza.blob.core.windows.net"
             ],
             "domain_suffix": [
+                "dinopoloclub.com",
                 "dodi-repacks.download",
                 "dodi-repacks.site",
                 "fabricmc.net",
@@ -87,8 +88,10 @@
                 "joinsquad.com",
                 "loverslab.com",
                 "minecraft.wiki",
+                "mobimon.com.tw",
                 "nexus-cdn.com",
                 "nexusmods.com",
+                "noxygames.com",
                 "offworldindustries.com",
                 "offworldindustries.net",
                 "papermc.io",
@@ -96,6 +99,8 @@
                 "prismlauncher.org",
                 "protondb.com",
                 "quiltmc.org",
+                "rayark.download",
+                "rayark.net",
                 "speedrun.com",
                 "steamdb.info",
                 "2k.com",
