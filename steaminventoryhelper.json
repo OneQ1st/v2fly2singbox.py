@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "rules": [
+        {
+            "domain": [],
+            "domain_suffix": [
+                "sih-db.com",
+                "sih.app",
+                "steaminventoryhelper.com"
+            ]
+        }
+    ]
+}
