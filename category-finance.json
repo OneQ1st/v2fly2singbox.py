@@ -2,7 +2,10 @@
     "version": 3,
     "rules": [
         {
-            "domain": [],
+            "domain": [
+                "standchartbank.sc.omtrdc.net",
+                "standchartbank.tt.omtrdc.net"
+            ],
             "domain_suffix": [
                 "fxcorporate.com",
                 "mql5.com",
@@ -271,6 +274,8 @@
                 "schwab.com.sg",
                 "schwabassetmanagement.com",
                 "schwabplan.com",
+                "sc.com",
+                "standardchartered.com",
                 "transferwise.com",
                 "wise.com",
                 "hsbc.com.cn",
