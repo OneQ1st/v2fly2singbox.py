@@ -2,9 +2,7 @@
     "version": 3,
     "rules": [
         {
-            "domain": [
-                "www.libvideo.com"
-            ],
+            "domain": [],
             "domain_suffix": [
                 "51ccd.com",
                 "airitilibrary.cn",
@@ -39,6 +37,7 @@
                 "hytung.cn",
                 "incopat.com",
                 "lawyee.org",
+                "libvideo.com",
                 "neohytung.com",
                 "nmrdata.com",
                 "nssd.cn",

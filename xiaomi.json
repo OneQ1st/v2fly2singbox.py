@@ -71,7 +71,11 @@
                 "tracking.miui.com",
                 "miaibox.com",
                 "xiaoaiassist.com",
-                "xiaomimimo.com"
+                "xiaomimimo.com",
+                "account.xiaomi.com",
+                "cn-ha.mqtt.io.mi.com",
+                "ha.api.io.mi.com",
+                "miot-spec.org"
             ]
         }
     ]
