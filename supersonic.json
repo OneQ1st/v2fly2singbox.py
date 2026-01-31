@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "rules": [
+        {
+            "domain": [],
+            "domain_suffix": [
+                "ssacdn.com",
+                "supersonic.com",
+                "supersonicads.com",
+                "supersonicads-a.akamaihd.net"
+            ]
+        }
+    ]
+}

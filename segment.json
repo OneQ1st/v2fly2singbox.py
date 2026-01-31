@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "rules": [
+        {
+            "domain": [],
+            "domain_suffix": [
+                "segment.com",
+                "segment.io",
+                "segmenthub.com",
+                "segmentify.com"
+            ]
+        }
+    ]
+}
