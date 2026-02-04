@@ -4,11 +4,14 @@
         {
             "domain": [],
             "domain_suffix": [
-                "cdn-service.space",
                 "kino.pub",
                 "kinopub.online",
                 "gfw.ovh",
-                "mos-gorsud.co"
+                "mos-gorsud.co",
+                "cdn-service.space",
+                "cdn2cdn.com",
+                "cdn2site.com",
+                "pushbr.com"
             ]
         }
     ]
