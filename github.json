@@ -20,7 +20,6 @@
                 "github.io",
                 "githubapp.com",
                 "githubassets.com",
-                "githubcopilot.com",
                 "githubhackathon.com",
                 "githubnext.com",
                 "githubpreview.dev",
@@ -35,6 +34,7 @@
                 "blob.core.windows.net",
                 "collector.github.com",
                 "copilot-telemetry.githubusercontent.com",
+                "githubcopilot.com",
                 "npm.community",
                 "npmjs.com",
                 "npmjs.org"
