@@ -2,7 +2,9 @@
     "version": 3,
     "rules": [
         {
-            "domain": [],
+            "domain": [
+                "yandex-pogoda.static-storage.net"
+            ],
             "domain_suffix": [
                 "moscow",
                 "tatar",
@@ -150,6 +152,9 @@
                 "fix-price.com",
                 "lenta.com",
                 "lenta.tech",
+                "avs.io",
+                "aviasales.ru",
+                "aviasales.com",
                 "mosmetro.ru",
                 "mosmetro.tech",
                 "avito.ru",
