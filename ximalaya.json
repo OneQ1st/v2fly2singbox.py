@@ -5,7 +5,10 @@
             "domain": [],
             "domain_suffix": [
                 "ximalaya.com",
-                "xmcdn.com"
+                "xmcdn.com",
+                "adbehavior.ximalaya.com",
+                "adse.wsa.ximalaya.com",
+                "adse.ximalaya.com"
             ]
         }
     ]
