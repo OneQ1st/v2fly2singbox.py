@@ -22,6 +22,7 @@
                 "production-openaicom-storage.azureedge.net",
                 "o33249.ingest.sentry.io",
                 "browser-intake-datadoghq.com",
+                "ppl-ai-file-upload.s3.amazonaws.com",
                 "pplx-res.cloudinary.com"
             ],
             "domain_suffix": [
