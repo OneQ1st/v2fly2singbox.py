@@ -2,7 +2,9 @@
     "version": 3,
     "rules": [
         {
-            "domain": [],
+            "domain": [
+                "checkip.amazonaws.com"
+            ],
             "domain_suffix": [
                 "2ip.io",
                 "2ip.ru",
