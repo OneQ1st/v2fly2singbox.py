@@ -2,7 +2,9 @@
     "version": 3,
     "rules": [
         {
-            "domain": [],
+            "domain": [
+                "apkmirror.disqus.com"
+            ],
             "domain_suffix": [
                 "apkmirror.com"
             ]
