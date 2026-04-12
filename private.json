@@ -13,7 +13,8 @@
                 "www.routerlogin.com",
                 "tplogin.cn",
                 "miwifi.com",
-                "www.miwifi.com"
+                "www.miwifi.com",
+                "local.adguard.org"
             ],
             "domain_suffix": [
                 "lan",
@@ -132,7 +133,8 @@
                 "tendawifi.com",
                 "tplinkwifi.net",
                 "zte.home",
-                "ts.net"
+                "ts.net",
+                "kis.v2.scr.kaspersky-labs.com"
             ]
         }
     ]
