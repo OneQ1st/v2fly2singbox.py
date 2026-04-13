@@ -21,8 +21,9 @@
                 "domain:api-staging.mindbox.ru",
                 "domain:api.mindbox.cloud",
                 "domain:api.mindbox.ru",
-                "domain:api.e.mindbox.ru",
-                "domain:api.s.mindbox.ru",
+                "domain:e.mindbox.ru",
+                "domain:g.mindbox.ru",
+                "domain:s.mindbox.ru",
                 "domain:sentry.mindbox.ru",
                 "domain:sentry.popmechanic.ru"
             ]

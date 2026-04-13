@@ -3,7 +3,6 @@
     "rules": [
         {
             "domain": [
-                "manga.bilibili.com",
                 "upos-hz-mirrorakam.akamaized.net"
             ],
             "domain_suffix": [
@@ -34,6 +33,7 @@
                 "biligo.com",
                 "biliintl.com",
                 "dreamcast.hk",
+                "huasheng.cn",
                 "im9.com",
                 "yo9.com",
                 "bilicdn1.com",
