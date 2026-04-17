@@ -2,7 +2,19 @@
     "version": 3,
     "rules": [
         {
-            "domain": [],
+            "domain": [
+                "api-eu.carrotquest.app",
+                "api-eu.carrotquest.io",
+                "api-ru.carrotquest.app",
+                "api-ru.carrotquest.io",
+                "api-secure.carrotquest.app",
+                "api-secure.carrottrack.app",
+                "api.carrotquest.app",
+                "api.carrotquest.io",
+                "api.carrottrack.app",
+                "api.dashly.app",
+                "api.dashlytrack.app"
+            ],
             "domain_suffix": [
                 "carrot-mail.io",
                 "carrotquest-mail.io",
@@ -15,18 +27,7 @@
                 "dashly.me",
                 "dashlytrack.app",
                 "mail-carrotquest.io",
-                "pushgrow.io",
-                "domain:api-eu.carrotquest.app",
-                "domain:api-eu.carrotquest.io",
-                "domain:api-ru.carrotquest.app",
-                "domain:api-ru.carrotquest.io",
-                "domain:api-secure.carrotquest.app",
-                "domain:api-secure.carrottrack.app",
-                "domain:api.carrotquest.app",
-                "domain:api.carrotquest.io",
-                "domain:api.carrottrack.app",
-                "domain:api.dashly.app",
-                "domain:api.dashlytrack.app"
+                "pushgrow.io"
             ]
         }
     ]

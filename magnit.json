@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "rules": [
+        {
+            "domain": [],
+            "domain_suffix": [
+                "kazanexpress.ru",
+                "magnit.com",
+                "magnit.ru",
+                "mm.ru"
+            ]
+        }
+    ]
+}

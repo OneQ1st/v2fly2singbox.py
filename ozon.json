@@ -2,7 +2,26 @@
     "version": 3,
     "rules": [
         {
-            "domain": [],
+            "domain": [
+                "ad.ozone.ru",
+                "adv.ozon.ru",
+                "agency-adv.ozon.ru",
+                "analytics-adv.ozon.ru",
+                "beginners-adv.ozon.ru",
+                "google-analytics-suite.ozon.ru",
+                "loyalnost-adv.ozon.ru",
+                "new-adv.ozon.ru",
+                "prodvizhenie-adv.ozon.ru",
+                "questions-adv.ozon.ru",
+                "sentry.ozon.ru",
+                "xapi.ozon.by",
+                "xapi.ozon.com",
+                "xapi.ozon.com.by",
+                "xapi.ozon.com.kz",
+                "xapi.ozon.kz",
+                "xapi.ozon.ru",
+                "xapi.ozonru.me"
+            ],
             "domain_suffix": [
                 "ewisdom.us.kg",
                 "o3.ru",
@@ -45,25 +64,7 @@
                 "rocketozon.by",
                 "xn----8sbahiqzthbd0bn.xn--p1ai",
                 "xn--80aafgovrgbc7am.xn--p1ai",
-                "xn--e1adjldbbpv.xn--90ais",
-                "domain:ad.ozone.ru",
-                "domain:adv.ozon.ru",
-                "domain:agency-adv.ozon.ru",
-                "domain:analytics-adv.ozon.ru",
-                "domain:beginners-adv.ozon.ru",
-                "domain:google-analytics-suite.ozon.ru",
-                "domain:loyalnost-adv.ozon.ru",
-                "domain:new-adv.ozon.ru",
-                "domain:prodvizhenie-adv.ozon.ru",
-                "domain:questions-adv.ozon.ru",
-                "domain:sentry.ozon.ru",
-                "domain:xapi.ozon.by",
-                "domain:xapi.ozon.com",
-                "domain:xapi.ozon.com.by",
-                "domain:xapi.ozon.com.kz",
-                "domain:xapi.ozon.kz",
-                "domain:xapi.ozon.ru",
-                "domain:xapi.ozonru.me"
+                "xn--e1adjldbbpv.xn--90ais"
             ]
         }
     ]
