@@ -1372,6 +1372,7 @@
                 "amp.akamaized.net"
             ],
             "domain_suffix": [
+                "scorecardresearch.com",
                 "bunka.go.jp",
                 "uxthemes.com",
                 "app-pay.jp",
@@ -1426,6 +1427,7 @@
                 "kiro.dev",
                 "lovart.ai",
                 "meta.ai",
+                "minimax.io",
                 "mistral.ai",
                 "openart.ai",
                 "openclaw.ai",
@@ -22709,6 +22711,7 @@
                 "unrealengine.com",
                 "unrealtournament.com",
                 "egdownload.fastly-edge.com",
+                "fortnite-vod.akamaized.net",
                 "tarkov.com",
                 "eft-store.com",
                 "escapefromtarkov.com",
