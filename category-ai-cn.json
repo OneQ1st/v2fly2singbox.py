@@ -7,8 +7,12 @@
                 "ai.zhaomi.cn"
             ],
             "domain_suffix": [
+                "liblib.art",
+                "liblib.cloud",
+                "liblib.tv",
                 "rwkv.cn",
                 "rwkv.com",
+                "tapnow.top",
                 "qianwen.aliyun.com",
                 "qianwen.com",
                 "qwen.ai",
@@ -33,8 +37,6 @@
                 "hunyuan.tencent.com",
                 "yuanqi.tencent.com",
                 "baichuan-ai.com",
-                "botvip.cn",
-                "liblib.art",
                 "cueme.cn",
                 "n.cn",
                 "namiso.com",
