@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "rules": [
+        {
+            "domain": [],
+            "domain_suffix": [
+                "b2c-digest.ru",
+                "t2.ru",
+                "tele2.ru"
+            ]
+        }
+    ]
+}

@@ -2,8 +2,13 @@
     "version": 3,
     "rules": [
         {
-            "domain": [],
+            "domain": [
+                "sentry.iptv.rt.ru"
+            ],
             "domain_suffix": [
+                "azbukainterneta.ru",
+                "rostelecom.ru",
+                "rt.ru",
                 "restream-media.net",
                 "restream.ru",
                 "more.tv",
