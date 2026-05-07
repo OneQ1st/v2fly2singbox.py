@@ -3,6 +3,8 @@
     "rules": [
         {
             "domain": [
+                "end-api.shallow.ink",
+                "end.shallow.ink",
                 "blizzard.nefficient.co.kr",
                 "blzddist1-a.akamaihd.net",
                 "blzddistkr1-a.akamaihd.net",
@@ -937,6 +939,7 @@
                 "supercellgames.com",
                 "supercellid.com",
                 "supercellstore.com",
+                "supr.cl",
                 "take2games.com",
                 "ubi.com",
                 "ubisoft.com",

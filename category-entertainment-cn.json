@@ -3,6 +3,8 @@
     "rules": [
         {
             "domain": [
+                "end-api.shallow.ink",
+                "end.shallow.ink",
                 "apilog-web.acfun.cn",
                 "p3-novel.byteimg.com",
                 "p6-novel.byteimg.com",

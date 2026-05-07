@@ -4,6 +4,11 @@
         {
             "domain": [
                 "servd-anthropic-website.b-cdn.net",
+                "copilot-proxy.githubusercontent.com",
+                "copilot-workspace.githubnext.com",
+                "copilotprodattachments.blob.core.windows.net",
+                "copilot-telemetry-service.githubusercontent.com",
+                "copilot-telemetry.githubusercontent.com",
                 "ai.google.dev",
                 "alkalicore-pa.clients6.google.com",
                 "alkalimakersuite-pa.clients6.google.com",
@@ -33,6 +38,7 @@
                 "clipdrop.co",
                 "jasper.ai",
                 "agentclientprotocol.com",
+                "anythingllm.com",
                 "chutes.ai",
                 "clawhub.ai",
                 "copilot.microsoft.com",
@@ -55,6 +61,7 @@
                 "openart.ai",
                 "openclaw.ai",
                 "openrouter.ai",
+                "openspec.dev",
                 "plannotator.ai",
                 "spicywriter.com",
                 "anthropic.com",

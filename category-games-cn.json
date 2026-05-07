@@ -2,7 +2,10 @@
     "version": 3,
     "rules": [
         {
-            "domain": [],
+            "domain": [
+                "end-api.shallow.ink",
+                "end.shallow.ink"
+            ],
             "domain_suffix": [
                 "7k7k.com",
                 "9xgame.com",
