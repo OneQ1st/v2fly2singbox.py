@@ -3,6 +3,10 @@
     "rules": [
         {
             "domain": [
+                "ads-img.mozilla.org",
+                "ads.mozilla.org",
+                "incoming.telemetry.mozilla.org",
+                "incoming-telemetry.thunderbird.net",
                 "mdn.mozillademos.org"
             ],
             "domain_suffix": [
