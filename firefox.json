@@ -2,7 +2,9 @@
     "version": 3,
     "rules": [
         {
-            "domain": [],
+            "domain": [
+                "mozilla-ohttp.fastly-edge.com"
+            ],
             "domain_suffix": [
                 "firefox.com",
                 "firefoxusercontent.com"

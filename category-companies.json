@@ -951,6 +951,7 @@
                 "ocsp.microsoft.com",
                 "oneocsp.microsoft.com",
                 "www.microsoft.com",
+                "mozilla-ohttp.fastly-edge.com",
                 "mdn.mozillademos.org",
                 "api.viu.now.com",
                 "dfp6rglgjqszk.cloudfront.net",
