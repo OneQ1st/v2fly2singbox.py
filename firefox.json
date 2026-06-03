@@ -6,7 +6,10 @@
                 "mozilla-ohttp.fastly-edge.com"
             ],
             "domain_suffix": [
+                "extendfirefox.com",
                 "firefox.com",
+                "firefox.hu",
+                "firefoxtweetmachine.com",
                 "firefoxusercontent.com"
             ]
         }
