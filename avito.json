@@ -2,7 +2,9 @@
     "version": 3,
     "rules": [
         {
-            "domain": [],
+            "domain": [
+                "stats.avito.ru"
+            ],
             "domain_suffix": [
                 "avito.ru",
                 "avito.st"
