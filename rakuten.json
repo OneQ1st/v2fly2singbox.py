@@ -4,6 +4,7 @@
         {
             "domain": [],
             "domain_suffix": [
+                "buyservices.com",
                 "r10s.com",
                 "r10s.jp",
                 "rakuten-static.com",
@@ -12,9 +13,28 @@
                 "rakuten.com",
                 "rakuten.com.tw",
                 "rakuten.ne.jp",
+                "rakuten.tv",
                 "rakuten.tw",
+                "rakutenadvertising.com",
+                "rakutengiftcards.ca",
+                "bfads.net",
+                "ebates.ca",
+                "ebates.kr",
+                "ebates.sg",
+                "ebatescanada.com",
+                "ecbsn.com",
+                "fatwallet.com",
                 "rclon.com",
-                "rebates.jp"
+                "rebates.jp",
+                "rrcbsn.com",
+                "kobo.com",
+                "viki.com",
+                "viber.com",
+                "viber.co",
+                "viber.me",
+                "s-bid.rmp.rakuten.com",
+                "vbcdn.com",
+                "vbcdn.net"
             ]
         }
     ]
