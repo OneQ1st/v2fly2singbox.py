@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "rules": [
+        {
+            "domain": [],
+            "domain_suffix": [
+                "nichost.ru",
+                "nic.ru",
+                "r01.ru",
+                "sweb.ru"
+            ]
+        }
+    ]
+}
