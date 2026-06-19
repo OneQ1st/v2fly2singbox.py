@@ -4,9 +4,11 @@
         {
             "domain": [],
             "domain_suffix": [
+                "godaddy",
                 "godaddy.com",
-                "x.co",
-                "godaddy"
+                "godaddy.net",
+                "wsimg.com",
+                "x.co"
             ]
         }
     ]
