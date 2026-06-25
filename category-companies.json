@@ -3,6 +3,10 @@
     "rules": [
         {
             "domain": [
+                "account-cn.alibabacloud.com",
+                "api.alibabacloud.com",
+                "cn.alibabacloud.com",
+                "status.alibabacloud.com",
                 "images-cn.ssl-images-amazon.com",
                 "images-cn-8.ssl-images-amazon.com",
                 "www.amd.com",
@@ -430,7 +434,6 @@
                 "ctldl.windowsupdate.com",
                 "developer.microsoft.com",
                 "download.microsoft.com",
-                "download.visualstudio.microsoft.com",
                 "dreamspark.download.prss.microsoft.com",
                 "dreamsparkuat.download.prss.microsoft.com",
                 "f.c2r.ts.cdn.office.net",
