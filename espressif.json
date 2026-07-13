@@ -4,9 +4,13 @@
         {
             "domain": [],
             "domain_suffix": [
-                "espressif.com",
                 "esp32.com",
-                "esp8266.com"
+                "esp8266.cn",
+                "esp8266.com",
+                "esp8266.com.cn",
+                "espressif.cn",
+                "espressif.com",
+                "espressif.com.cn"
             ]
         }
     ]
