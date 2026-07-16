@@ -4,7 +4,8 @@
         {
             "domain": [],
             "domain_suffix": [
-                "spacex.com"
+                "spacex.com",
+                "starlink.com"
             ]
         }
     ]
