@@ -3,6 +3,7 @@
     "rules": [
         {
             "domain": [
+                "api.blipsandchitz.me",
                 "ctdsb.clouddiffuse.xyz",
                 "hospital.pku.edu.cn",
                 "ss.bjmu.edu.cn",
@@ -1498,6 +1499,7 @@
                 "vhengdata.com",
                 "wanji.net.cn",
                 "yebinnet.com",
+                "hrsecn.com",
                 "12365auto.com",
                 "autohome.com",
                 "autohome.com.cn",
