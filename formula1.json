@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "rules": [
+        {
+            "domain": [],
+            "domain_suffix": [
+                "formula1.com",
+                "f1.com",
+                "f1tv.com"
+            ]
+        }
+    ]
+}
