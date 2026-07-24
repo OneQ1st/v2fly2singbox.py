@@ -101,6 +101,9 @@
                 "opengw.net",
                 "vpngate.jp",
                 "vpngate.net",
+                "docs.rw",
+                "log.rw",
+                "try.rw",
                 "cf-ipfs.com",
                 "cloudflare-ipfs.com"
             ]
