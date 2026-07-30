@@ -8,6 +8,7 @@
                 "incoming.telemetry.mozilla.org",
                 "incoming-telemetry.thunderbird.net",
                 "mozilla-ohttp.fastly-edge.com",
+                "mozilla.map.fastly.net",
                 "mdn.mozillademos.org"
             ],
             "domain_suffix": [
