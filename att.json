@@ -15,7 +15,6 @@
                 "att.com",
                 "att.jobs",
                 "att.net",
-                "att.tv",
                 "attalascom.com",
                 "attbelieves.com",
                 "attbusiness.net",
@@ -37,7 +36,6 @@
                 "attssl.com",
                 "attstadium.com",
                 "attsuppliers.com",
-                "atttvnow.com",
                 "attuverseoffers.com",
                 "attuverseonline.com",
                 "attvoip.com",
@@ -55,7 +53,6 @@
                 "itcanwait.com",
                 "mymmode.com",
                 "naturalvoices.com",
-                "nettyinternet.com",
                 "openapiplatform.com",
                 "openapiservice.com",
                 "patentgold.net",
@@ -136,7 +133,12 @@
                 "mydirectvchannels.com",
                 "redzonechannel.com",
                 "txdirectv.com",
-                "xandr.com"
+                "xandr.com",
+                "att.tv",
+                "atttvnow.com",
+                "attwatchtv.com",
+                "dtvce.com",
+                "nettyinternet.com"
             ]
         }
     ]

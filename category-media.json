@@ -566,8 +566,6 @@
                 "foxweatherwatch.com",
                 "fssta.com",
                 "fxn.ws",
-                "fxnetwork.com",
-                "fxnetworks.com",
                 "bentobox.tv",
                 "kicu.tv",
                 "ktvu.com",
@@ -744,8 +742,6 @@
                 "hketgroup.com",
                 "ulifestyle.com.hk",
                 "umagazine.com.hk",
-                "hkopentv.com",
-                "fantv.hk",
                 "huffingtonpost.ca",
                 "huffingtonpost.co.uk",
                 "huffingtonpost.co.za",
@@ -1253,6 +1249,7 @@
                 "bigbigchannel.com.hk",
                 "bigbigshop.com",
                 "encoretvb.com",
+                "neigbuy.com",
                 "tvb.com",
                 "tvb.com.au",
                 "tvbanywhere.com",
@@ -1354,7 +1351,6 @@
                 "ync.ne.jp",
                 "yomikyo.or.jp",
                 "yomilogi.com",
-                "yomiuri-johkai.co.jp",
                 "yomiuri-johkai.co.jp",
                 "yomiuri-ryokou.co.jp",
                 "yomiuri-shimbun.pressreader.com",
@@ -1593,8 +1589,7 @@
                 "reuters.com",
                 "reuters.tv",
                 "reutersmedia.net",
-                "mytvsuper.com",
-                "tvb.com"
+                "mytvsuper.com"
             ]
         }
     ]
