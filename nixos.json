@@ -2,9 +2,21 @@
     "version": 3,
     "rules": [
         {
-            "domain": [],
+            "domain": [
+                "nix-community.github.io"
+            ],
             "domain_suffix": [
-                "nixos.org"
+                "nix.dev",
+                "nix.store",
+                "nixcon.org",
+                "nixcon2017.org",
+                "nixlang.com",
+                "nixos.org",
+                "nixpkgs.org",
+                "builtwithnix.org",
+                "mynixos.com",
+                "nix-community.org",
+                "nixos.wiki"
             ]
         }
     ]
