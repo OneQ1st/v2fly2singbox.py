@@ -2,9 +2,7 @@
     "version": 3,
     "rules": [
         {
-            "domain": [
-                "tp.louisvuitton.com"
-            ],
+            "domain": [],
             "domain_suffix": [
                 "louisvuitton.cn",
                 "louisvuitton.com",
