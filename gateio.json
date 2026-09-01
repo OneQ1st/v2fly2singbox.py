@@ -4,7 +4,10 @@
         {
             "domain": [],
             "domain_suffix": [
+                "gate.com",
                 "gate.io",
+                "gate.tv",
+                "gateapi.io",
                 "gatedata.org",
                 "gateimg.com",
                 "gateio.live",
