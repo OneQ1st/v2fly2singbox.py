@@ -4,14 +4,15 @@
         {
             "domain": [
                 "checkip.amazonaws.com",
-                "checkip.dyndns.org",
                 "checkip.dyn.com",
+                "checkip.dyndns.org",
                 "checkip.global.api.aws",
                 "ip-check-perf.radar.cloudflare.com",
                 "ip.comss.net",
                 "ipv4-check-perf.radar.cloudflare.com",
                 "ipv6-check-perf.radar.cloudflare.com",
                 "myip.dnsomatic.com",
+                "myip.happ.su",
                 "whatismyip.akamai.com"
             ],
             "domain_suffix": [
@@ -38,6 +39,7 @@
                 "curlmyip.net",
                 "dadata.ru",
                 "db-ip.com",
+                "dnscheck.tools",
                 "dnsleaktest.com",
                 "extreme-ip-lookup.com",
                 "find-my-ip.com",
@@ -113,6 +115,8 @@
                 "iplocation.com",
                 "iplocation.io",
                 "iplocation.net",
+                "iplogger.com",
+                "iplogger.org",
                 "iplookup.it",
                 "ipme.co",
                 "ipme.in",
