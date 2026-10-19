@@ -18,7 +18,9 @@
                 "mc.yandex.net",
                 "mc.yango.com",
                 "pixel.yandex.com",
-                "report.ap.yandex-net.ru"
+                "report.ap.yandex-net.ru",
+                "kp-config-smart-tv.akamaized.net",
+                "kp-configs-smart-tv.s3.eu-central-1.amazonaws.com"
             ],
             "domain_suffix": [
                 "yandex",
@@ -158,7 +160,8 @@
                 "yandexmetrica.com",
                 "yango-ads.com",
                 "kinopoisk.ru",
-                "kinopoisk-ru.clstorage.net"
+                "kinopoisk-ru.clstorage.net",
+                "kp.yandex.net"
             ]
         }
     ]

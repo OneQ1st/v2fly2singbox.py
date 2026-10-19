@@ -99,7 +99,6 @@
                 "gamedownloads-rockstargames-com.akamaized.net",
                 "media-rockstargames-com.akamaized.net",
                 "videos-rockstargames-com.akamaized.net",
-                "flightsimulator.azureedge.net",
                 "prodforza.blob.core.windows.net"
             ],
             "domain_suffix": [
@@ -853,8 +852,6 @@
                 "zynga.com",
                 "zyngaplayersupport.com",
                 "zyngapoker.com",
-                "asobostudio.com",
-                "flightsimulator.com",
                 "beth.games",
                 "bethesda.net",
                 "bethesdagamestudios.com",

@@ -115,7 +115,6 @@
                 "copilotprodattachments.blob.core.windows.net",
                 "copilot-telemetry-service.githubusercontent.com",
                 "copilot-telemetry.githubusercontent.com",
-                "flightsimulator.azureedge.net",
                 "prodforza.blob.core.windows.net"
             ],
             "domain_suffix": [
@@ -743,8 +742,6 @@
                 "npm.community",
                 "npmjs.com",
                 "npmjs.org",
-                "asobostudio.com",
-                "flightsimulator.com",
                 "beth.games",
                 "bethesda.net",
                 "bethesdagamestudios.com",
