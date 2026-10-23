@@ -5,7 +5,9 @@
             "domain": [],
             "domain_suffix": [
                 "open.cachefly.net",
-                "openspeedtest.com"
+                "openspeedtest.com",
+                "openspeedtest.in",
+                "openspeedtest.org"
             ]
         }
     ]
