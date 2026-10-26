@@ -21,7 +21,6 @@
                 "iridiumbrowser.de",
                 "kiwibrowser.com",
                 "kmeleonbrowser.org",
-                "librewolf.net",
                 "minbrowser.org",
                 "netsurf-browser.org",
                 "opera.com",
@@ -40,6 +39,8 @@
                 "firefox.hu",
                 "firefoxtweetmachine.com",
                 "firefoxusercontent.com",
+                "librewolf.dev",
+                "librewolf.net",
                 "torproject.org"
             ]
         }
