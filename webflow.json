@@ -4,7 +4,10 @@
         {
             "domain": [],
             "domain_suffix": [
-                "webflow.com"
+                "webflow-ext.com",
+                "webflow.com",
+                "webflow.io",
+                "website-files.com"
             ]
         }
     ]
