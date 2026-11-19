@@ -4,9 +4,15 @@
         {
             "domain": [],
             "domain_suffix": [
+                "baishan.com",
+                "baishancdnx.cn",
+                "baishancloud.com",
                 "bsclink.cn",
                 "qingcdn.com",
-                "trpcdn.net"
+                "trpcdn.com",
+                "trpcdn.net",
+                "yundun.com",
+                "saxyit.com"
             ]
         }
     ]
